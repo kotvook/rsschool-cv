@@ -1,1 +1,138 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cv</title>
+    <link rel="icon" href="./assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Сode</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/avatar.jpg" alt="Profile Logo" class="profileLogo">
+                <div class="profile-title">
+                    <h1 class="mainTitle">Artsiom Kokatau</h1>
+                    <h3 class="subtitle">Junior Front-End Developer</h3>
+                </div> 
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">
+                      Gomel, Belarus
+                    </li>
+                    <li class="section-item contacts-item">
+                      Email: <a href="mailto:tream.kotvook@gmail.com" title="email">tream.kotvook@gmail.com</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                      Github: <a href="https://github.com/kotvook" title="github">kotvook</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                      Telegram: <a href="https://t.me/Kotvook" title="telegram">@Kotvook</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                      Discord: <a href="https://discord.gg/FFe2kSKf" title="discord">Tream#6480</a>
+                    </li>
+                  </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>
+                    I find a common language with people and strive to learn new things.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                  <li class="section-item">
+                    C#
+                  </li>
+                  <li class="section-item">
+                    Java
+                  </li>
+                  <li class="section-item">
+                    SQL
+                  </li>
+                  <li class="section-item">
+                    HTML
+                  </li>
+                  <li class="section-item">
+                    CSS
+                  </li>
+                  <li class="section-item">
+                    JavaScript (basic)
+                  </li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
+                    <code>
+private static int[] GetArrayFromNumber(int number)
+{
+    int digitCount = (int)Math.Log10(number) + 1;
+    int[] numbers = new int[digitCount];
+    for (int i = 0; i &lt digitCount; i++)
+    {
+        numbers[i] = number % 10;
+        number /= 10;
+    }
+    return numbers;
+}
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                  <li class="section-item">
+                    Itstep<span> - Java web development</span>
+                  </li>
+                  <li class="section-item">
+                    &lt EPAM &gt training center<span> - .NET Development</span>
+                  </li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="section-list">
+                  <li class="section-item">
+                    Sukhoi State Technical University of Gomel<span> - Information Systems and Technologies (in Design and Manufacture) - graduate 2018</span>
+                  </li>
+                </ul>
+            </section>
+            <section class="section section-english" id="english">
+                <h2 class="section-title">English</h2>
+                <p>B1 - Pre-Intermediate</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <a href="https://rs.school/js/" class="rss">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="Logo" class="rss-logo">
+            </a>
+            <span>© 2022 Github:</span>
+            <a href="https://github.com/kotvook" class="github-link">kotvook</a>
+        </div>
+    </footer>
+</body>
+</html>
